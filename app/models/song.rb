@@ -13,6 +13,5 @@ class Song < ActiveRecord::Base
     drake = Artist.create
     self.artist = drake
     drake.songs << self
-    self.artist.name
   end
 end
