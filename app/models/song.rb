@@ -14,4 +14,5 @@ class Song < ActiveRecord::Base
     self.artist = drake
     drake.save
     self.artist.name
+  end
 end
